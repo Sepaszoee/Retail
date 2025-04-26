@@ -39,3 +39,24 @@ This project is an **Advanced Data Analysis** on a retail sales dataset using **
    ```bash
    git clone https://github.com/Sepaszoee/Retail.git
 
+ 2. Open the notebook:
+
+If you are using Google Colab, open it directly using this link: Open Notebook in Google Colab. Then, upload the notebook or link it to your GitHub repository.
+
+If you are using Jupyter Notebook, open it by navigating to the directory where the .ipynb file is located.
+
+3. Install required libraries: If the libraries are not already installed, you can install them by running the following command in your notebook or terminal:
+
+pip install pandas numpy scikit-learn matplotlib seaborn
+
+4. Run all cells: After the libraries are installed, run all the cells to explore the full analysis.
+
+📚 License
+This project is licensed under the MIT License - feel free to use, modify, and share it as you like.
+
+👩‍💻 Author
+[Zohreh Sepaszoee](https://github.com/Sepaszoee)
+
+
+
+
