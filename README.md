@@ -11,17 +11,23 @@ This project is an **Advanced Data Analysis** on a retail sales dataset using **
 - **Feature Engineering**: Creating new meaningful features.
 - **Time Series Analysis**: Forecasting sales over time.
 - **Predictive Modeling**: Building regression models to predict future sales.
+- **Customer Segmentation**: Using RFM and KMeans clustering.
+- **Market Basket Analysis**: Association rules with Apriori and clustering.
+- **Interactive Dashboard**: Built with Streamlit for visual exploration.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 - Python 3.10
-- Pandas
-- Numpy
+- Pandas, NumPy
 - Scikit-Learn
 - Matplotlib & Seaborn
-- Google Colab
+- Plotly
+- Prophet (Facebook)
+- Streamlit
+- mlxtend (Apriori)
+- Google Colab / Jupyter Notebook
 
 ---
 
@@ -30,33 +36,58 @@ This project is an **Advanced Data Analysis** on a retail sales dataset using **
 - Understand customer behavior and product performance.
 - Predict future sales to support better business decisions.
 - Create clear and insightful visualizations.
+- Deliver actionable insights through an interactive dashboard.
 
 ---
 
 ## 🚀 How to Run
 
+```
 1. Clone this repository:
-   ```bash
+
    git clone https://github.com/Sepaszoee/Retail.git
+   cd Retail
 
- 2. Open the notebook:
+2. Open the notebook:
 
-If you are using Google Colab, open it directly using this link: Open Notebook in Google Colab. Then, upload the notebook or link it to your GitHub repository.
+   - 📘 [Open forecasting notebook in Google Colab](https://colab.research.google.com/github/Sepaszoee/Retail/blob/main/notebooks/forecasting.ipynb)
+   - Or navigate to the `notebooks/` folder and open `.ipynb` file in Jupyter.
 
-If you are using Jupyter Notebook, open it by navigating to the directory where the .ipynb file is located.
+3. Install required libraries:
 
-3. Install required libraries: If the libraries are not already installed, you can install them by running the following command in your notebook or terminal:
+   pip install -r requirements.txt
 
-pip install pandas numpy scikit-learn matplotlib seaborn
+4. Run all cells to explore the full analysis and generate outputs.
 
-4. Run all cells: After the libraries are installed, run all the cells to explore the full analysis.
+5. Launch the dashboard (optional):
 
-📚 License
-This project is licensed under the MIT License - feel free to use, modify, and share it as you like.
+   cd dashboard
+   streamlit run app.py
+```
 
-👩‍💻 Author
+---
+
+## 📂 Project Structure
+
+```
+Retail/
+├── data/                 # Raw input data (CSV/Excel)
+├── notebooks/            # Jupyter/Colab notebooks (e.g., forecasting.ipynb)
+├── scripts/              # (Optional) Python modules for clean code
+├── dashboard/            # Streamlit app (app.py)
+├── outputs/              # Visualizations, models, and other results
+├── requirements.txt      # Project dependencies
+└── README.md             # Project documentation
+```
+
+---
+
+## 📚 License
+
+This project is licensed under the **MIT License** — feel free to use, modify, and share it as you like.
+
+---
+
+## 👩‍💻 Author
+
 [Zohreh Sepaszoee](https://github.com/Sepaszoee)
-
-
-
-
